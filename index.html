@@ -2,7 +2,7 @@
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Halo – פחות מסך</title>
 <meta name="description" content="Halo חוסמת את האפליקציות שגונבות לכם את היום ומחזירה לכם את הזמן מהטלפון. עברית מלאה, אייפון ואנדרואיד.">
 <link rel="canonical" href="https://halofocus.app/">
@@ -13,121 +13,128 @@
 <meta property="og:url" content="https://halofocus.app/">
 <meta property="og:image" content="https://halofocus.app/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#0B0B0D">
+<meta name="theme-color" content="#040404">
 <link rel="icon" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<script src="/site.js" defer></script>
 </head>
-<body>
-<header>
-  <div class="wrap nav">
+<body class="home">
+<header class="nav-wrap">
+  <nav class="nav">
     <a class="logo" href="/" aria-label="Halo"><img src="/img/wordmark.png" alt="Halo"></a>
-    <nav class="links">
-      <a href="/#how">איך זה עובד</a>
+    <div class="links">
       <a href="/#features">יכולות</a>
+      <a href="/#scenes">טיימר</a>
       <a href="/#faq">שאלות נפוצות</a>
       <a href="/privacy">פרטיות</a>
       <a href="/support">תמיכה</a>
-    </nav>
-    <div class="spacer"></div>
-    <a class="badge" href="#download"><img src="/img/badge-appstore-he.svg" alt="להורדה מה-App Store"></a>
-  </div>
+    </div>
+    <a class="pill-btn" href="/#download">להורדה בחינם</a>
+  </nav>
 </header>
 
 <section class="hero">
-  <div class="wrap">
-    <div>
-      <span class="eyebrow">עכשיו לאייפון ולאנדרואיד</span>
-      <h1>פחות מסך.<br><span class="soft">יותר חיים.</span></h1>
-      <p class="lead">Halo חוסמת את האפליקציות שגונבות לכם את היום, לפי שעות, זמן או מספר פתיחות, ועוזרת לכם להתמקד במה שחשוב באמת.</p>
-      <div class="badges"><a class="badge" href="#download"><img src="/img/badge-appstore-he.svg" alt="להורדה מה-App Store"></a><a class="badge" href="#download"><img src="/img/badge-googleplay-he.png" alt="קבלו את זה ב-Google Play"></a></div><div class="legal-note">הורדה חינם. בשימוש באפליקציה אתם מסכימים ל<a href="/terms">תנאי השימוש</a> ול<a href="/privacy">מדיניות הפרטיות</a>.</div>
-    </div>
-    <div class="phones" aria-hidden="true">
-      <div class="device a"><img class="shot" src="/img/screen-home.jpg" alt="" loading="eager"><img class="frame" src="/img/phone-frame.png" alt="" loading="eager"></div>
-      <div class="device b"><img class="shot" src="/img/screen-timer.jpg" alt="" loading="eager"><img class="frame" src="/img/phone-frame.png" alt="" loading="eager"></div>
-    </div>
+  <div class="hero-bg" aria-hidden="true"><img src="/img/hero-crater.jpg" alt=""></div>
+  <div class="hero-in">
+    <h1><span class="line">פחות מסך.</span><span class="line">יותר חיים.</span></h1>
+    <p class="lead rise">Halo חוסמת את האפליקציות שגונבות לכם את היום, ועוזרת לכם לחזור למה שחשוב באמת.</p>
+    <div class="rise"><div class="badges"><a class="badge" href="#download"><img src="/img/badge-appstore-he.svg" alt="להורדה מה-App Store"></a><a class="badge" href="#download"><img src="/img/badge-googleplay-he.png" alt="קבלו את זה ב-Google Play"></a></div></div>
+    <ul class="trust rise">
+      <li><b>עברית</b><span>מלאה, מימין לשמאל</span></li>
+      <li><b>פרטי</b><span>הנתונים נשארים בטלפון</span></li>
+      <li><b>iPhone</b><span>ו־Android</span></li>
+    </ul>
+  </div>
+  <div class="hero-phone" aria-hidden="true"><div class="device "><img class="shot" src="/img/screen-home.jpg" alt="" loading="eager"><img class="frame" src="/img/phone-frame.png" alt="" loading="eager"></div></div>
+</section>
+
+<section class="statement" data-scrub>
+  <div class="sticky">
+    <p><span class="w">ארבע</span> <span class="w">שעות</span> <span class="w">ביום.</span> <span class="w">זה</span> <span class="w">בערך</span> <span class="w">הזמן</span> <span class="w">שנבלה</span> <span class="w">היום</span> <span class="w">בטלפון,</span> <span class="w">ורובו</span> <span class="w">בלי</span> <span class="w">לשים</span> <span class="w">לב.</span> <span class="w">הגיע</span> <span class="w">הזמן</span> <span class="w">לקחת</span> <span class="w">אותו</span> <span class="w">בחזרה.</span></p>
   </div>
 </section>
 
-<div class="statement">
-  <div class="wrap">
-    <p>ארבע שעות ביום בטלפון הן יותר מ־60 ימים בשנה. <span class="soft">רובם עוברים בלי שבכלל שמנו לב.</span></p>
+<section id="features" class="features">
+  <div class="feature" data-scrub>
+    <div class="feature-copy reveal">
+      <span class="chip">ציון Halo</span>
+      <h2>היום שלכם, במספר אחד</h2>
+      <p>ציון מ־0 עד 100 שמחבר שינה, פוקוס ומנוחה, ומראה איך הטלפון באמת משפיע עליכם. יחד איתו: זמן מסך, הרמות טלפון, והאפליקציות שלקחו לכם את היום.</p>
+    </div>
+    <div class="feature-media"><div class="glow"></div><div class="device tilt"><img class="shot" src="/img/screen-home.jpg" alt="מסך הבית של Halo עם הציון היומי" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div></div>
   </div>
-</div>
 
-<section class="alt" id="how">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>איך זה עובד</h2>
-      <p>שלושה צעדים, ומשם Halo עובדת לבד.</p>
+  <div class="feature flip" data-scrub>
+    <div class="feature-copy reveal">
+      <span class="chip">כללים</span>
+      <h2>קובעים פעם אחת. Halo דואגת לשאר.</h2>
+      <p>חוסמים אפליקציות לפי שעות, לפי זמן שימוש או לפי מספר פתיחות. ניווט, מוניות ובריאות נשארים פתוחים תמיד.</p>
     </div>
-    <div class="steps">
-      <div class="step"><div class="num">1</div><h3>בוחרים אפליקציות</h3><p>מסמנים את האפליקציות שהכי קשה לכם להניח: רשתות, סרטונים, משחקים.</p></div>
-      <div class="step"><div class="num">2</div><h3>קובעים כלל</h3><p>שעות עבודה, לפני השינה, כמה דקות ביום או כמה פתיחות. פעם אחת וזהו.</p></div>
-      <div class="step"><div class="num">3</div><h3>חוזרים לחיים</h3><p>כשמנסים לפתוח אפליקציה חסומה, Halo עוצרת לרגע ומחזירה אתכם למה שחשוב.</p></div>
-    </div>
+    <div class="feature-media"><div class="glow blue"></div><div class="device tilt"><img class="shot" src="/img/screen-apps.jpg" alt="כללי החסימה של Halo" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div></div>
   </div>
-</section>
 
-<section id="features">
-  <div class="wrap">
-    <div class="feature">
-      <div class="device "><img class="shot" src="/img/screen-home.jpg" alt="מסך הבית של Halo עם ציון יומי" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div>
-      <div>
-        <span class="tag">ציון יומי</span>
-        <h3>איך הטלפון משפיע עליכם, במספר אחד</h3>
-        <p>ציון מ־0 עד 100 שמחבר שינה, פוקוס ומנוחה, יחד עם זמן המסך של היום ואילו אפליקציות לקחו אותו.</p>
-      </div>
+  <div class="feature" data-scrub>
+    <div class="feature-copy reveal">
+      <span class="chip">טיימר פוקוס</span>
+      <h2>נכנסים לפוקוס. נשארים שם.</h2>
+      <p>בוחרים כמה זמן, והאפליקציות המסיחות ננעלות עד שהטיימר נגמר. ברקע: נופים וצלילים מהארץ.</p>
     </div>
-    <div class="feature flip">
-      <div class="device "><img class="shot" src="/img/screen-apps.jpg" alt="כללי החסימה של Halo" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div>
-      <div>
-        <span class="tag">כללים</span>
-        <h3>חסימה שעובדת לבד</h3>
-        <p>קובעים פעם אחת, ו־Halo דואגת לשאר.</p>
-        <ul class="checks">
-          <li>לוח זמנים: שעות עבודה, לפני השינה, בוקר בלי טלפון</li>
-          <li>מגבלת זמן: כמה דקות ביום לכל אפליקציה</li>
-          <li>מגבלת פתיחות: כמה פעמים ביום מותר לפתוח</li>
-          <li>תמיד מותר: ניווט, מוניות ובריאות לא נחסמים אף פעם</li>
-        </ul>
-      </div>
-    </div>
-    <div class="feature">
-      <div class="device "><img class="shot" src="/img/screen-timer.jpg" alt="טיימר הפוקוס של Halo" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div>
-      <div>
-        <span class="tag">טיימר ונשימה</span>
-        <h3>להיכנס לפוקוס ולהישאר שם</h3>
-        <p>טיימר שקט על רקע נופים מהארץ, מהגליל ועד ים המלח. האפליקציות המסיחות נחסמות עד שהזמן נגמר, ויש תרגילי נשימה לרגעים שצריך לעצור.</p>
-      </div>
-    </div>
-    <div class="band" style="margin-top:48px">
-      <img src="/img/night.jpg" alt="לילה על שפת הכנרת" loading="lazy">
-      <div class="copy">
-        <h3>לפני השינה</h3>
-        <p>Halo חוסמת את מה שמחזיק אתכם ערים בלילה, כדי שהבוקר יתחיל אחרת.</p>
-      </div>
-    </div>
+    <div class="feature-media"><div class="glow"></div><div class="device tilt"><img class="shot" src="/img/screen-timer.jpg" alt="טיימר הפוקוס של Halo" loading="lazy"><img class="frame" src="/img/phone-frame.png" alt="" loading="lazy"></div></div>
   </div>
 </section>
 
-<section class="alt">
-  <div class="wrap">
-    <div class="section-head"><h2>נבנתה בשבילכם</h2></div>
-    <div class="values">
-      <div class="value"><h3>הפרטיות שלכם נשארת אצלכם</h3><p>נתוני זמן המסך נשארים על הטלפון. אנחנו לא רואים אותם ולא מוכרים מידע. <a href="/privacy" style="text-decoration:underline">מדיניות הפרטיות</a></p></div>
-      <div class="value"><h3>בלי הרשמה</h3><p>אפשר להשתמש בלי חשבון. חשבון רק מגבה את ההגדרות למכשיר חדש, ואפשר למחוק אותו בכל רגע.</p></div>
-      <div class="value"><h3>עברית מלאה</h3><p>שבוע שמתחיל ביום ראשון, נופים מהארץ, ושפה שמדברת אליכם ולא מטיפה.</p></div>
-    </div>
+<section id="scenes" class="scenes">
+  <div class="head reveal">
+    <span class="chip">נופים וצלילים</span>
+    <h2>הארץ, ברקע של הפוקוס</h2>
+    <p>מהחרמון המושלג ועד ים המלח. כל טיימר מגיע עם נוף וצליל משלו.</p>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="track"><figure class="scene"><img src="/img/scene-hermonSnow.jpg" alt="" loading="lazy"><figcaption>חרמון בשלג</figcaption></figure><figure class="scene"><img src="/img/scene-galilee.jpg" alt="" loading="lazy"><figcaption>הגליל</figcaption></figure><figure class="scene"><img src="/img/scene-deadSea.jpg" alt="" loading="lazy"><figcaption>ים המלח</figcaption></figure><figure class="scene"><img src="/img/scene-jerusalemRain.jpg" alt="" loading="lazy"><figcaption>גשם בירושלים</figcaption></figure><figure class="scene"><img src="/img/scene-kinneretNight.jpg" alt="" loading="lazy"><figcaption>לילה בכנרת</figcaption></figure><figure class="scene"><img src="/img/scene-negev.jpg" alt="" loading="lazy"><figcaption>הנגב</figcaption></figure><figure class="scene"><img src="/img/scene-hermonSnow.jpg" alt="" loading="lazy"><figcaption>חרמון בשלג</figcaption></figure><figure class="scene"><img src="/img/scene-galilee.jpg" alt="" loading="lazy"><figcaption>הגליל</figcaption></figure><figure class="scene"><img src="/img/scene-deadSea.jpg" alt="" loading="lazy"><figcaption>ים המלח</figcaption></figure><figure class="scene"><img src="/img/scene-jerusalemRain.jpg" alt="" loading="lazy"><figcaption>גשם בירושלים</figcaption></figure><figure class="scene"><img src="/img/scene-kinneretNight.jpg" alt="" loading="lazy"><figcaption>לילה בכנרת</figcaption></figure><figure class="scene"><img src="/img/scene-negev.jpg" alt="" loading="lazy"><figcaption>הנגב</figcaption></figure></div>
+  </div>
+  <div class="marquee reverse" aria-hidden="true">
+    <div class="track"><figure class="scene"><img src="/img/scene-morning.jpg" alt="" loading="lazy"><figcaption>בוקר</figcaption></figure><figure class="scene"><img src="/img/scene-study.jpg" alt="" loading="lazy"><figcaption>לימודים</figcaption></figure><figure class="scene"><img src="/img/scene-night.jpg" alt="" loading="lazy"><figcaption>לילה</figcaption></figure><figure class="scene"><img src="/img/scene-workday.jpg" alt="" loading="lazy"><figcaption>יום עבודה</figcaption></figure><figure class="scene"><img src="/img/scene-bedtime.jpg" alt="" loading="lazy"><figcaption>לפני השינה</figcaption></figure><figure class="scene"><img src="/img/scene-morning.jpg" alt="" loading="lazy"><figcaption>בוקר</figcaption></figure><figure class="scene"><img src="/img/scene-study.jpg" alt="" loading="lazy"><figcaption>לימודים</figcaption></figure><figure class="scene"><img src="/img/scene-night.jpg" alt="" loading="lazy"><figcaption>לילה</figcaption></figure><figure class="scene"><img src="/img/scene-workday.jpg" alt="" loading="lazy"><figcaption>יום עבודה</figcaption></figure><figure class="scene"><img src="/img/scene-bedtime.jpg" alt="" loading="lazy"><figcaption>לפני השינה</figcaption></figure></div>
   </div>
 </section>
 
-<section id="faq">
+<section class="numbers">
   <div class="wrap">
-    <div class="section-head"><h2>שאלות נפוצות</h2></div>
+    <h2 class="reveal">כמה זה ארבע שעות ביום?</h2>
+    <div class="huge reveal"><span data-count="60">0</span> ימים</div>
+    <p class="huge-sub reveal">בכל שנה, מול המסך.</p>
+    <div class="stats">
+      <div class="stat reveal"><div class="n"><span data-count="1460">0</span></div><div class="l">שעות בשנה</div></div>
+      <div class="stat reveal"><div class="n"><span data-count="25">0</span>%</div><div class="l">מהשעות שאתם ערים, בערך</div></div>
+      <div class="stat reveal"><div class="n"><span data-count="10">0</span> שנים</div><div class="l">לאורך 60 שנה של חיים</div></div>
+    </div>
+    <p class="fine reveal">חישוב לפי 4 שעות ביום. Halo נותנת לכם לבחור כמה מזה לקחת בחזרה.</p>
+  </div>
+</section>
+
+<section class="pro">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="chip">הכול בפנים</span>
+      <h2>כל מה שצריך כדי להחזיק מעמד</h2>
+    </div>
+    <ul class="pro-list">
+      <li class="reveal"><b>נעול עד הסוף</b><span>אין דרך לצאת עד שהזמן נגמר. גם לא לכם.</span></li>
+      <li class="reveal"><b>כללים בלי הגבלה</b><span>לעבודה, ללימודים, לבוקר ולפני השינה.</span></li>
+      <li class="reveal"><b>מגבלת פתיחות</b><span>כמה פעמים ביום מותר לפתוח כל אפליקציה.</span></li>
+      <li class="reveal"><b>תמיד מותר</b><span>מה שחייב להישאר פתוח, נשאר פתוח.</span></li>
+      <li class="reveal"><b>ציון יומי והיסטוריה</b><span>רואים את ההתקדמות, יום אחרי יום.</span></li>
+      <li class="reveal"><b>פרטיות מלאה</b><span>נתוני השימוש לא עוזבים את הטלפון. <a href="/privacy">איך זה עובד</a></span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="faq" class="faq-sec">
+  <div class="wrap">
+    <h2 class="reveal">שאלות נפוצות</h2>
     <div class="faq">
       <details><summary>האם Halo רואה מה אני עושה בטלפון?</summary>
         <p>לא. באייפון החסימה ונתוני זמן המסך עוברים דרך מערכת זמן המסך של Apple ונשארים על המכשיר. באנדרואיד Halo מזהה רק איזו אפליקציה נפתחה, כדי להציג מסך חסימה, ולא קוראת שום תוכן מהמסך. כל הפרטים ב<a href="/privacy">מדיניות הפרטיות</a>.</p></details>
@@ -137,31 +144,37 @@
         <p>לא. החשבון לא חובה, והוא רק מגבה את הכללים וההתקדמות שלכם. אפשר <a href="/delete-account">למחוק את החשבון</a> בכל רגע מתוך האפליקציה.</p></details>
       <details><summary>אפשר לעקוף את החסימה?</summary>
         <p>תלוי בכם. במצב רגיל אפשר לסיים מוקדם, במצב "עם הפסקת נשימה" צריך לנשום עשר שניות קודם, ובמצב "נעול עד הסוף" אין דרך לצאת עד שהזמן נגמר.</p></details>
+      <details><summary>כמה זה עולה?</summary>
+        <p>ההורדה חינם ומתחילים בניסיון חינם. המחירים המלאים מופיעים באפליקציה לפני כל רכישה, ואפשר לבטל בכל רגע מהגדרות החנות.</p></details>
       <details><summary>איך יוצרים קשר?</summary>
         <p>כתבו לנו ל־<a href="mailto:hello@gear-ai.app">hello@gear-ai.app</a> או בקרו בעמוד <a href="/support">התמיכה</a>.</p></details>
     </div>
   </div>
 </section>
 
-<section class="alt cta" id="download">
+<section class="cta" id="download">
+  <div class="halo-ring" aria-hidden="true"><i></i></div>
   <div class="wrap">
-    <img class="icon" src="/img/icon-256.png" alt="">
-    <h2>הזמן שלכם.<br>תחזירו אותו.</h2>
-    <div class="badges"><a class="badge" href="#download"><img src="/img/badge-appstore-he.svg" alt="להורדה מה-App Store"></a><a class="badge" href="#download"><img src="/img/badge-googleplay-he.png" alt="קבלו את זה ב-Google Play"></a></div><div class="legal-note">הורדה חינם. בשימוש באפליקציה אתם מסכימים ל<a href="/terms">תנאי השימוש</a> ול<a href="/privacy">מדיניות הפרטיות</a>.</div>
+    <img class="icon reveal" src="/img/icon-256.png" alt="">
+    <h2 class="reveal">פחות מסך.<br>יותר חיים.</h2>
+    <div class="reveal"><div class="badges"><a class="badge" href="#download"><img src="/img/badge-appstore-he.svg" alt="להורדה מה-App Store"></a><a class="badge" href="#download"><img src="/img/badge-googleplay-he.png" alt="קבלו את זה ב-Google Play"></a></div><div class="legal-note">הורדה חינם. בשימוש באפליקציה אתם מסכימים ל<a href="/terms">תנאי השימוש</a> ול<a href="/privacy">מדיניות הפרטיות</a>.</div></div>
   </div>
 </section>
+
+<div class="ticker" aria-hidden="true"><span class="clock" data-clock>00:00</span><span>הזמן שלכם בדף הזה</span></div>
 
 <footer>
   <div class="wrap">
     <div class="foot">
-      <div>
+      <div class="foot-brand">
         <a class="logo" href="/"><img src="/img/wordmark.png" alt="Halo"></a>
-        <p>פחות מסך, יותר חיים. אפליקציה ישראלית לחסימת אפליקציות ופוקוס.</p>
+        <p>פחות מסך, יותר חיים.</p>
       </div>
       <div><h4>Halo</h4><ul>
-        <li><a href="/#how">איך זה עובד</a></li>
         <li><a href="/#features">יכולות</a></li>
+        <li><a href="/#scenes">טיימר וצלילים</a></li>
         <li><a href="/#faq">שאלות נפוצות</a></li>
+        <li><a href="/#download">הורדה</a></li>
       </ul></div>
       <div><h4>עזרה</h4><ul>
         <li><a href="/support">תמיכה</a></li>
@@ -171,8 +184,8 @@
       <div><h4>משפטי</h4><ul>
         <li><a href="/privacy">מדיניות פרטיות</a></li>
         <li><a href="/terms">תנאי שימוש</a></li>
-        <li><a href="/privacy#en">Privacy Policy (English)</a></li>
-        <li><a href="/terms#en">Terms of Use (English)</a></li>
+        <li><a href="/privacy#en">Privacy Policy</a></li>
+        <li><a href="/terms#en">Terms of Use</a></li>
       </ul></div>
     </div>
     <div class="copyright">
