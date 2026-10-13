@@ -88,10 +88,14 @@ body.scrolled .nav { background: rgba(22, 22, 24, 0.72); }
 .hero h1 { font-size: clamp(58px, 10vw, 128px); line-height: 1; font-weight: 800; margin-bottom: 26px; }
 .hero h1 .line { display: block; }
 .lead { font-size: clamp(18px, 2vw, 21px); color: rgba(245, 245, 247, .78); max-width: 560px; margin: 0 auto 32px; }
-.trust { list-style: none; display: flex; justify-content: center; gap: 44px; margin-top: 40px; }
-.trust li { display: grid; gap: 2px; }
-.trust b { font-size: 19px; font-weight: 700; }
-.trust span { font-size: 12px; letter-spacing: .06em; color: var(--text-3); }
+.trust { list-style: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 36px; }
+.trust li {
+  display: inline-flex; align-items: center; gap: 8px; height: 38px; padding: 0 16px;
+  border-radius: 999px; font-size: 14px; font-weight: 500; color: rgba(245, 245, 247, .82);
+  background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .1);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+.trust svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; opacity: .85; }
 .hero-phone {
   position: relative; z-index: 1; width: min(300px, 64vw); margin: 64px auto -180px;
   transform: translateY(calc(var(--sy, 0) * -0.12px));
@@ -298,8 +302,30 @@ footer { border-top: 1px solid var(--line); padding: 64px 0 40px; color: var(--t
   .nav-wrap { inset: 10px 0 auto; padding: 0 10px; }
   .nav { height: 54px; }
   .pill-btn { height: 38px; padding: 0 16px; font-size: 14px; }
-  .trust { gap: 22px; }
-  .trust b { font-size: 16px; }
+  .hero { padding: 104px 16px 0; }
+  .hero h1 { font-size: clamp(50px, 15vw, 64px); margin-bottom: 18px; }
+  .lead { font-size: 17px; margin-bottom: 26px; }
+  .trust { gap: 8px; margin-top: 28px; }
+  .trust li { height: 34px; padding: 0 12px; font-size: 13px; }
+  .hero-phone { width: min(250px, 66vw); margin-top: 44px; }
+  .statement p { font-size: 28px; }
+  .feature { padding: 48px 20px; gap: 32px; }
+  .feature h2 { font-size: 32px; }
+  .feature p { font-size: 17px; }
+  .scenes, .numbers, .pro { padding: 80px 0; }
+  .head { margin-bottom: 36px; }
+  .head h2, .numbers h2, .faq-sec h2 { font-size: 32px; }
+  .head p { font-size: 17px; }
+  .stats { margin-top: 44px; }
+  .stat { padding: 24px 20px; border-radius: 22px; }
+  .stat .n { font-size: 38px; }
+  .pro-list { border-radius: 24px; }
+  .pro-list li { padding: 18px 20px; }
+  .faq summary { font-size: 17px; }
+  .cta { padding: 110px 0 130px; }
+  .cta .icon { width: 92px; height: 92px; border-radius: 22px; }
+  .foot { gap: 28px 20px; }
+  .ticker { bottom: 14px; height: 36px; font-size: 13px; }
   .badge img { height: 46px; }
   .scene, .scene img { width: 160px; }
   .feature-media .device { width: min(250px, 62vw); }
