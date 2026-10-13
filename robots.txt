@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://halofocus.app/sitemap.xml
